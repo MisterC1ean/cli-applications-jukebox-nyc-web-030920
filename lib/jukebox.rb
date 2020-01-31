@@ -29,7 +29,7 @@ end
 
 def play(songs)
   # puts prompt
-  puts "Please enter a song name or number"
+  puts "Please enter a song name or number:"
   # stores user input
   input = gets.strip
   
