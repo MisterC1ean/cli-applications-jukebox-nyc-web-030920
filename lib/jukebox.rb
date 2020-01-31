@@ -22,7 +22,7 @@ end
 def list(songs)
   # outputs each song on a new line with a track number
   # i.e. 1. Phoenix - 1901
-  
+  songs.each_with_index do ||
 end
 
 def play(songs)
