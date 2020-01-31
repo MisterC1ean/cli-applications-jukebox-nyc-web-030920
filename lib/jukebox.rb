@@ -19,7 +19,11 @@ def help()
   puts "- exit : exits this program"
 end
 
-
+def list(songs)
+  # outputs each song on a new line with a track number
+  # i.e. 1. Phoenix - 1901
+  
+end
 
 def play(songs)
   # puts prompt
