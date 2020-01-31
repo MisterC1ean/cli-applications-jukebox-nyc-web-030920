@@ -19,6 +19,8 @@ def help()
   puts "- exit : exits this program"
 end
 
+
+
 def play(songs)
   # puts prompt
   puts "Please enter a song name or number"
