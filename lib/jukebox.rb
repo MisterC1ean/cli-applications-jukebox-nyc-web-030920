@@ -36,6 +36,8 @@ def play(songs)
   # if input is valid song num or name 
   if input
     
+  elsif
+  
   else
 end
 end
