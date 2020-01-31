@@ -32,6 +32,7 @@ def play(songs)
   puts "Please enter a song name or number"
   # stores user input
   input = gets.strip
+  
   # if input is valid song num or name 
   if input 
     
