@@ -36,10 +36,10 @@ def play(songs)
   # if track number could exist as index of our array
   if(1..9).to_a.include?(input.to_i)
     puts "Playing #{songs[input.to_i - 1]}"
-  
+  # if index of (song name) exists ..
   elsif songs.index(input) != nil
     puts "Playing #{input}"
-    
+  # if you typed gibberish
   else
     puts "Invalid input, please try again"
 end
