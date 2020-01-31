@@ -56,17 +56,17 @@ def run
    while input != "exit"
     if input == "list"
       list(songs)
-      input = prompt()
+      input = gets.strip
     elsif input == "play"
       play(my_songs)
-      input = prompt()
+      input = gets.strip
     elsif input == "help"
       help()
-      input = prompt()
+      input = gets.strip
     else
       puts "Invalid command"
       help()
-      input = prompt()
+      input = gets.strip
     end
   end
   
