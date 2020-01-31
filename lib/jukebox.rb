@@ -58,7 +58,7 @@ def run(songs)
       list(songs)
       input = gets.strip
     elsif input == "play"
-      play(my_songs)
+      play(songs)
       input = gets.strip
     elsif input == "help"
       help()
