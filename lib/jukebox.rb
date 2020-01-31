@@ -18,3 +18,14 @@ def help()
   puts "- play : lets you choose a song to play"
   puts "- exit : exits this program"
 end
+
+def play(songs)
+  # puts prompt
+  puts "Please enter a song name or number"
+  # stores user input
+  input = gets.strip
+  # if input is valid song num or name 
+  if input 
+    
+  else
+end
