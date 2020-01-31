@@ -34,8 +34,8 @@ def play(songs)
   input = gets.strip
   
   # if input is valid song num or name 
-  if(1..9).to_a.include? 
-    
+  if(1..9).to_a.include?(input.to_i)
+    puts "Playing "
   elsif
   
   else
